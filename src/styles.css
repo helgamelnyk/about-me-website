@@ -1,0 +1,96 @@
+:root {
+  --buttons-color: #a728eb;
+  --bg-color: #eedef2;
+  --project-btn-color: #ed3f73;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background: linear-gradient(#eedef2,#f0fbff);
+}
+
+h1 {
+  font-size: 78px;
+  line-height: 1.5;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 60px;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--bg-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.btn-styles {
+  background: var(--buttons-color);
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: auto 10px;
+}
+
+.btn-project {
+  color: var(--project-btn-color);
+  border: 1px solid var(--project-btn-color) ;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.my-projects {
+  font-size: 30px;
+} 
+.project-desciption {
+  padding: auto 60px;
+}
+
+@media (max-width: 560px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
