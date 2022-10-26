@@ -49,7 +49,33 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+.content-container {
+  padding: 80px 15px;
+}
 
+.content h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 20px;
+}
 .btn-styles {
   background: var(--buttons-color);
   border-radius: 5px;
@@ -75,9 +101,20 @@ p {
   padding: auto 60px;
 }
 
+.my-photo {
+  width: 490px;
+  height: 380px;
+  border-radius: 5px;
+}
+.contact-links {
+  text-decoration: none;
+  font-size: 19px;
+  color: #b053c3;
+}
+
 @media (max-width: 560px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 2;
   }
 
