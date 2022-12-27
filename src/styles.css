@@ -105,14 +105,18 @@ p {
   width: 490px;
   height: 380px;
   border-radius: 5px;
+  margin-top: -50px;
 }
 .contact-links {
   text-decoration: none;
   font-size: 19px;
   color: #b053c3;
 }
+.title {
+  margin-top: -80px;
+}
 nav {
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 nav ul {
@@ -151,16 +155,6 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
-}
-
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -176,7 +170,7 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 .social-links {
-  color: #bd0077;
+  color: #a728eb;
 }
 
 @media (max-width: 560px) {
