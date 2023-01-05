@@ -102,10 +102,11 @@ p {
 }
 
 .my-photo {
-  width: 490px;
-  height: 380px;
+  width: 380px;
+  height: 280px;
   border-radius: 5px;
   margin-top: -50px;
+  margin-left: 20px;
 }
 .contact-links {
   text-decoration: none;
@@ -114,6 +115,14 @@ p {
 }
 .title {
   margin-top: -80px;
+}
+
+.cv {
+  color: #2e1974;
+}
+.svp {
+  color: black;
+ 
 }
 nav {
   padding-top: 20px;
@@ -174,12 +183,12 @@ footer .social-links a:hover {
 
 @media (max-width: 560px) {
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 2;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 30px;
   }
 
   .hero {
